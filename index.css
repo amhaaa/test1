@@ -3,6 +3,95 @@
     padding:0;
 }
 
-body{
-    background-color: gray;
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+header{
+    width:100%;
+    height:60px;
+    background-color: #555;
+}
+
+
+.nav{
+    width: 600px;
+    height: 60px;
+    float: right;
+    margin-right: 100px;
+}
+
+.nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>ul>li{
+    width: 150px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    color: white
+}
+
+
+
+
+
+#mainCon1,#mainCon2,#mainCon3,#mainCon4,#mainCon5{
+    width:100%;
+    height:800px;
+}
+
+#mainCon1{
+    background-color: rgb(217, 213, 255);
+    background-image: url(./images/christmas-stars-6881348_1920.jpg);
+}
+
+#mainCon2{
+    background-color: rgb(213, 247, 255);
+}
+#mainCon3{
+    background-color: rgb(213, 255, 246);
+}
+#mainCon4{
+    background-color: rgb(228, 255, 213);
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height:300px;
+    background-color: #555;
+}
+
+.footerCon{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    box-sizing: border-box;
+}   
+
+
+.add>p{
+    color:#fff
+}
+
+
+.int>p{
+    color:#fff
 }
